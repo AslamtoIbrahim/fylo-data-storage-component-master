@@ -8,8 +8,8 @@ import IconFylo from "./IconFylo";
 
 const Fylo = () => {
   return (
-    <div className="bg-neutral-darkBlue w-[min(100%-3rem,60rem)]
-     flex flex-col gap-8 p-sm md:p-md rounded-xl rounded-tr-[5rem] md:rounded-tr-[6rem]  ">
+    <div className="bg-neutral-darkBlue w-[90%] lg:w-fit md:pr-40
+     flex flex-col gap-8 p-sm md:p-md rounded-xl rounded-tr-[5rem] md:rounded-tr-[8rem]  ">
       <section>
         <Image src={logo} alt="logo image" />
       </section>
