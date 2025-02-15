@@ -16,7 +16,7 @@ const Slider = ({ value = 0, space = 100 }: prop) => {
   useEffect(() => {
     setTimeout(() => {
       setactive(true);
-    }, 100);
+    }, 1000);
   }, []);
 
   return (
