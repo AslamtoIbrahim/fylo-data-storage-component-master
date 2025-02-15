@@ -29,13 +29,15 @@ export default {
       backgroundImage:{
         mobile: "url('../../public/sources/images/bg-mobile.png')",
         desktop: "url('../../public/sources/images/bg-desktop.png')",
+        slid : 'linear-gradient(90deg,hsl(6, 100%, 80%) 0%,hsl(335, 100%, 65%) 70%);'
       },
       padding:{
         sm:'1.5rem',
         md:'3.5rem',
         lg:'6rem',
         xl:'8rem',
-      }
+      },
+
     },
   },
   plugins: [],
